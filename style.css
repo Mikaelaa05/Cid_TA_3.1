@@ -1,0 +1,178 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #EEB8C4;
+}
+#logodiv{
+    width:100%;
+    min-height: 50px;
+    background-color: #ADD8E6;
+    padding-left: 45%;
+    padding-right: 40%;
+    line-height: 50px;
+    float: left;
+
+}
+#headerbanner-div{
+    width:100%;
+    min-height: 30px;
+    background-color: #ADD8E6;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#navdiv{
+    width:100%;
+    min-height: 30px;
+    background-color: #ADD8E6;
+    padding-left: 2%;
+    padding-right: 2%;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#navdiv a{
+    font-size: 15px; /* reduce font size */
+    margin: 0 5px; /* reduce margin */
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#Top-div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#mainwrap{
+    box-sizing: border-box;
+    position: relative;
+}
+#main-div{
+    width:100%;
+    margin-bottom: 10px;
+    flex: 1;
+}
+.imagewrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Box {
+    margin: 20px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px; /* add a fixed width to make them aligned */
+}
+
+.Box img {
+    margin-bottom: 25px;
+    width: 100%; /* make the image take full width of the box */
+    height: 150px; /* add a fixed height to make them aligned */
+    object-fit: cover; /* make the image cover the entire box */
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+#footer-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: #ADD8E6;
+    padding-left: 2%;
+    padding-right: 5%;
+    line-height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .footer-contact {
+    text-align: center;
+  }
+  
+  .footer-contact p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-contact a:hover {
+    color: #666;
+  }
+#main-paragraph{
+    width:100%;
+    min-height: 30px;
+    background-color: #ADD8E6;
+    padding-left: 2%;
+    padding-right: 2%;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#wrapper{
+    width:80%;
+    margin:auto;
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #0047AB; /* Cobalt Blue */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+}
