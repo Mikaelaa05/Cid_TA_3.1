@@ -39,6 +39,7 @@ body{
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
+    margin-left: 450px;
 }
 #navdiv a{
     font-size: 15px; /* reduce font size */
